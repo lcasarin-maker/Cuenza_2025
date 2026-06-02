@@ -1,0 +1,14 @@
+{
+  "version": "0.5",
+  "permissions": {
+    "read": ["**/*.md", "**/*.txt", "**/*.json"],
+    "write": ["SPEC.md", "AGENT.md", "PLAN.md", "HISTORIAL.md"],
+    "execute": ["scripts/run_*.py"],
+    "dangerous": []
+  },
+  "settings": {
+    "model": "claude-haiku",
+    "max_tokens": 4000,
+    "temperature": 0.7
+  }
+}
