@@ -1,0 +1,132 @@
+P  20181002    1 000000001 1 0          Factura 9031                                                                                          1 0 0
+M  1030260                        FACTURADO  2 12072.12             0          0.0                  Factura 9031                                                                                              
+M  4000002                        FACTURADO  1 12072.12             0          0.0                  Factura 9031                                                                                              
+M  2021010                        FACTURADO  1 1931.54              0          0.0                  Factura 9031                                                                                              
+P  20181002    1 000000002 1 0          Factura 9032                                                                                          1 0 0
+M  1030260                        FACTURADO  2 6036.64              0          0.0                  Factura 9032                                                                                              
+M  4000002                        FACTURADO  1 6036.64              0          0.0                  Factura 9032                                                                                              
+M  2021010                        FACTURADO  1 965.86               0          0.0                  Factura 9032                                                                                              
+P  20181002    1 000000003 1 0          Factura 9033                                                                                          1 0 0
+M  1030260                        FACTURADO  2 6960.00              0          0.0                  Factura 9033                                                                                              
+M  4000002                        FACTURADO  1 6960.00              0          0.0                  Factura 9033                                                                                              
+M  2021010                        FACTURADO  1 1113.60              0          0.0                  Factura 9033                                                                                              
+P  20181002    1 000000004 1 0          Factura 9034                                                                                          1 0 0
+M  1030260                        FACTURADO  2 19720.00             0          0.0                  Factura 9034                                                                                              
+M  4000002                        FACTURADO  1 19720.00             0          0.0                  Factura 9034                                                                                              
+M  2021010                        FACTURADO  1 3155.20              0          0.0                  Factura 9034                                                                                              
+P  20181002    1 000000005 1 0          Factura 9035                                                                                          1 0 0
+M  1030260                        FACTURADO  2 4640.00              0          0.0                  Factura 9035                                                                                              
+M  4000002                        FACTURADO  1 4640.00              0          0.0                  Factura 9035                                                                                              
+M  2021010                        FACTURADO  1 742.40               0          0.0                  Factura 9035                                                                                              
+P  20181002    1 000000006 1 0          Factura 9036                                                                                          1 0 0
+M  1030260                        FACTURADO  2 43082.40             0          0.0                  Factura 9036                                                                                              
+M  4000002                        FACTURADO  1 43082.40             0          0.0                  Factura 9036                                                                                              
+M  2021010                        FACTURADO  1 6893.18              0          0.0                  Factura 9036                                                                                              
+P  20181002    1 000000007 1 0          Factura 9037                                                                                          1 0 0
+M  1030260                        FACTURADO  2 11078.00             0          0.0                  Factura 9037                                                                                              
+M  4000002                        FACTURADO  1 11078.00             0          0.0                  Factura 9037                                                                                              
+M  2021010                        FACTURADO  1 1772.48              0          0.0                  Factura 9037                                                                                              
+P  20181002    1 000000008 1 0          Factura 9038                                                                                          1 0 0
+M  1030260                        FACTURADO  2 22610.33             0          0.0                  Factura 9038                                                                                              
+M  4000002                        FACTURADO  1 22610.33             0          0.0                  Factura 9038                                                                                              
+M  2021010                        FACTURADO  1 3617.65              0          0.0                  Factura 9038                                                                                              
+P  20181002    1 000000009 1 0          Factura 9039                                                                                          1 0 0
+M  1030260                        FACTURADO  2 22610.33             0          0.0                  Factura 9039                                                                                              
+M  4000002                        FACTURADO  1 22610.33             0          0.0                  Factura 9039                                                                                              
+M  2021010                        FACTURADO  1 3617.65              0          0.0                  Factura 9039                                                                                              
+P  20181002    1 000000010 1 0          Factura 9040                                                                                          1 0 0
+M  1030260                        FACTURADO  2 2552.00              0          0.0                  Factura 9040                                                                                              
+M  4000002                        FACTURADO  1 2552.00              0          0.0                  Factura 9040                                                                                              
+M  2021010                        FACTURADO  1 408.32               0          0.0                  Factura 9040                                                                                              
+P  20181002    1 000000011 1 0          Factura 9041                                                                                          1 0 0
+M  1030260                        FACTURADO  2 3286.66              0          0.0                  Factura 9041                                                                                              
+M  4000002                        FACTURADO  1 3286.66              0          0.0                  Factura 9041                                                                                              
+M  2021010                        FACTURADO  1 525.87               0          0.0                  Factura 9041                                                                                              
+P  20181002    1 000000012 1 0          Factura 9042                                                                                          1 0 0
+M  1030260                        FACTURADO  2 17438.66             0          0.0                  Factura 9042                                                                                              
+M  4000002                        FACTURADO  1 17438.66             0          0.0                  Factura 9042                                                                                              
+M  2021010                        FACTURADO  1 2790.19              0          0.0                  Factura 9042                                                                                              
+P  20181002    1 000000013 1 0          Factura 9043                                                                                          1 0 0
+M  1030260                        FACTURADO  2 14848.00             0          0.0                  Factura 9043                                                                                              
+M  4000002                        FACTURADO  1 14848.00             0          0.0                  Factura 9043                                                                                              
+M  2021010                        FACTURADO  1 2375.68              0          0.0                  Factura 9043                                                                                              
+P  20181002    1 000000014 1 0          Factura 9044                                                                                          1 0 0
+M  1030260                        FACTURADO  2 12334.66             0          0.0                  Factura 9044                                                                                              
+M  4000002                        FACTURADO  1 12334.66             0          0.0                  Factura 9044                                                                                              
+M  2021010                        FACTURADO  1 1973.55              0          0.0                  Factura 9044                                                                                              
+P  20181002    1 000000015 1 0          Factura 9045                                                                                          1 0 0
+M  1030260                        FACTURADO  2 37738.66             0          0.0                  Factura 9045                                                                                              
+M  4000002                        FACTURADO  1 37738.66             0          0.0                  Factura 9045                                                                                              
+M  2021010                        FACTURADO  1 6038.19              0          0.0                  Factura 9045                                                                                              
+P  20181002    1 000000016 1 0          Factura 9046                                                                                          1 0 0
+M  1030260                        FACTURADO  2 26196.66             0          0.0                  Factura 9046                                                                                              
+M  4000002                        FACTURADO  1 26196.66             0          0.0                  Factura 9046                                                                                              
+M  2021010                        FACTURADO  1 4191.47              0          0.0                  Factura 9046                                                                                              
+P  20181002    1 000000017 1 0          Factura 9047                                                                                          1 0 0
+M  1030260                        FACTURADO  2 17535.33             0          0.0                  Factura 9047                                                                                              
+M  4000002                        FACTURADO  1 17535.33             0          0.0                  Factura 9047                                                                                              
+M  2021010                        FACTURADO  1 2805.65              0          0.0                  Factura 9047                                                                                              
+P  20181002    1 000000018 1 0          Factura 9048                                                                                          1 0 0
+M  1030260                        FACTURADO  2 18560.00             0          0.0                  Factura 9048                                                                                              
+M  4000002                        FACTURADO  1 18560.00             0          0.0                  Factura 9048                                                                                              
+M  2021010                        FACTURADO  1 2969.60              0          0.0                  Factura 9048                                                                                              
+P  20181002    1 000000019 1 0          Factura 9049                                                                                          1 0 0
+M  1030260                        FACTURADO  2 95990.00             0          0.0                  Factura 9049                                                                                              
+M  4000002                        FACTURADO  1 95990.00             0          0.0                  Factura 9049                                                                                              
+M  2021010                        FACTURADO  1 15358.40             0          0.0                  Factura 9049                                                                                              
+P  20181002    1 000000020 1 0          Factura 9050                                                                                          1 0 0
+M  1030260                        FACTURADO  2 22910.00             0          0.0                  Factura 9050                                                                                              
+M  4000002                        FACTURADO  1 22910.00             0          0.0                  Factura 9050                                                                                              
+M  2021010                        FACTURADO  1 3665.60              0          0.0                  Factura 9050                                                                                              
+P  20181002    1 000000021 1 0          Factura 9051                                                                                          1 0 0
+M  1030260                        FACTURADO  2 40600.00             0          0.0                  Factura 9051                                                                                              
+M  4000002                        FACTURADO  1 40600.00             0          0.0                  Factura 9051                                                                                              
+M  2021010                        FACTURADO  1 6496.00              0          0.0                  Factura 9051                                                                                              
+P  20181002    1 000000022 1 0          Factura 9058                                                                                          1 0 0
+M  1030261                        FACTURADO  2 161009.74            0          0.0                  Factura 9058                                                                                              
+M  4000001                        FACTURADO  1 161009.74            0          0.0                  Factura 9058                                                                                              
+M  2021010                        FACTURADO  1 25761.56             0          0.0                  Factura 9058                                                                                              
+P  20181002    1 000000023 1 0          Factura 9060                                                                                          1 0 0
+M  1030261                        FACTURADO  2 12006.00             0          0.0                  Factura 9060                                                                                              
+M  4000001                        FACTURADO  1 12006.00             0          0.0                  Factura 9060                                                                                              
+M  2021010                        FACTURADO  1 1920.96              0          0.0                  Factura 9060                                                                                              
+P  20181002    1 000000024 1 0          Factura 9061                                                                                          1 0 0
+M  1030261                        FACTURADO  2 6264.00              0          0.0                  Factura 9061                                                                                              
+M  4000001                        FACTURADO  1 6264.00              0          0.0                  Factura 9061                                                                                              
+M  2021010                        FACTURADO  1 1002.24              0          0.0                  Factura 9061                                                                                              
+P  20181002    1 000000025 1 0          Factura 9062                                                                                          1 0 0
+M  1030261                        FACTURADO  2 6786.00              0          0.0                  Factura 9062                                                                                              
+M  4000001                        FACTURADO  1 6786.00              0          0.0                  Factura 9062                                                                                              
+M  2021010                        FACTURADO  1 1085.76              0          0.0                  Factura 9062                                                                                              
+P  20181002    1 000000026 1 0          Factura 9063                                                                                          1 0 0
+M  1030261                        FACTURADO  2 11658.00             0          0.0                  Factura 9063                                                                                              
+M  4000001                        FACTURADO  1 11658.00             0          0.0                  Factura 9063                                                                                              
+M  2021010                        FACTURADO  1 1865.28              0          0.0                  Factura 9063                                                                                              
+P  20181002    1 000000027 1 0          Factura 9064                                                                                          1 0 0
+M  1030261                        FACTURADO  2 12354.00             0          0.0                  Factura 9064                                                                                              
+M  4000001                        FACTURADO  1 12354.00             0          0.0                  Factura 9064                                                                                              
+M  2021010                        FACTURADO  1 1976.64              0          0.0                  Factura 9064                                                                                              
+P  20181002    1 000000028 1 0          Factura 9066                                                                                          1 0 0
+M  1030261                        FACTURADO  2 5127.20              0          0.0                  Factura 9066                                                                                              
+M  4000001                        FACTURADO  1 5127.20              0          0.0                  Factura 9066                                                                                              
+M  2021010                        FACTURADO  1 820.35               0          0.0                  Factura 9066                                                                                              
+P  20181002    1 000000029 1 0          Factura 9067                                                                                          1 0 0
+M  1030261                        FACTURADO  2 13920.00             0          0.0                  Factura 9067                                                                                              
+M  4000001                        FACTURADO  1 13920.00             0          0.0                  Factura 9067                                                                                              
+M  2021010                        FACTURADO  1 2227.20              0          0.0                  Factura 9067                                                                                              
+P  20181002    1 000000030 1 0          Factura 9068                                                                                          1 0 0
+M  1030261                        FACTURADO  2 11310.00             0          0.0                  Factura 9068                                                                                              
+M  4000001                        FACTURADO  1 11310.00             0          0.0                  Factura 9068                                                                                              
+M  2021010                        FACTURADO  1 1809.60              0          0.0                  Factura 9068                                                                                              
+P  20181002    1 000000031 1 0          Factura 9069                                                                                          1 0 0
+M  1030261                        FACTURADO  2 17400.00             0          0.0                  Factura 9069                                                                                              
+M  4000001                        FACTURADO  1 17400.00             0          0.0                  Factura 9069                                                                                              
+M  2021010                        FACTURADO  1 2784.00              0          0.0                  Factura 9069                                                                                              
+P  20181005    1 000000032 1 0          Factura 9072                                                                                          1 0 0
+M  1030263                        FACTURADO  2 5591.20              0          0.0                  Factura 9072                                                                                              
+M  4030001                        FACTURADO  1 5591.20              0          0.0                  Factura 9072                                                                                              
+M  2021010                        FACTURADO  1 894.59               0          0.0                  Factura 9072                                                                                              
+P  20181005    1 000000033 1 0          Factura 9073                                                                                          1 0 0
+M  1030263                        FACTURADO  2 19955.80             0          0.0                  Factura 9073                                                                                              
+M  4030001                        FACTURADO  1 19955.80             0          0.0                  Factura 9073                                                                                              
+M  2021010                        FACTURADO  1 3192.93              0          0.0                  Factura 9073                                                                                              

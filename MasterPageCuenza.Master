@@ -1,0 +1,399 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPageCuenza.Master.vb" Inherits="MasterPageCuenza" %>
+
+<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script lang="JavaScript">
+        javascript: window.history.forward(1); //Esto es para cuando le pulse al botón de Atrás
+        //javascript: window.history.back(1); //Esto para cuando le pulse al botón de Adelante
+    </script>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 1216px;
+        }
+        .style2
+        {
+            height: 149px;
+            width: 1216px;
+            background-color: #FFF4DF;
+            border-color:#AAAAAA;
+            border-width: 1px; 
+            border-style: solid;
+        }
+        .style3
+        {
+        }
+        .style4
+        {
+            height: 350px;
+            width: 15%;
+            background-color: #b9b9b9;
+            text-align: left; 
+            vertical-align: top;
+            padding-left:7px;
+            padding-right:6px;
+        }
+        .style5
+        {
+            height: 350px;
+            text-align:left; 
+            vertical-align: top; 
+            background-color: #FFF4DF;
+            }
+        .style6
+        {
+            height: 350px;
+            text-align:left; 
+            vertical-align: top; 
+            background-color: White;
+        }
+        .style7
+        {
+            width: 100%; 
+            height: 100%;
+        }
+        .style8
+        {
+            width: 15%;
+            background-color: #b9b9b9;
+            text-align: left; 
+            vertical-align: top;
+        }
+        .style9
+        {
+            width: 84%;
+            text-align:left; 
+            vertical-align: top; 
+        }
+        .style10
+        {
+            width: 1%;
+        }
+    
+        .RadMenu_Black
+        {
+	        font: normal 12px/23px "Segoe UI", Arial, sans-serif;
+	        color: #fff;
+	        text-decoration: none;
+        }
+
+        .RadMenu
+        {
+	        white-space:nowrap;
+	        float:left;
+	        position:relative;
+        }
+
+        .RadMenu_Black .rmRootGroup
+        {
+	        border: 1px solid #202020;
+	        background-repeat: repeat-x;
+	        background-color: #161616;
+        }
+
+        .RadMenu_Black .rmRootGroup
+        {
+	        background-image: url('mvwres://Telerik.Web.UI, Version=2009.1.527.35, Culture=neutral, PublicKeyToken=121fae78165ba3d4/Telerik.Web.UI.Skins.Black.Menu.rmSprite.png');
+	        background-color: transparent;
+        }
+
+        .RadMenu .rmRootGroup
+        {
+	        margin:0;
+	        padding:0;
+	        position:relative;
+	        left:0;
+	        display: inline-block;
+            cursor: default;
+        }
+
+        .RadMenu .rmItem
+        {
+	        padding: 0;
+        }
+
+        .RadMenu .rmItem
+        {
+	        float:left;
+	        position:relative;
+	        list-style-image: none;
+	        list-style-position:outside;
+	        list-style:none;	
+        }
+
+        .RadMenu_Black .rmLink
+        {
+	        background-repeat: no-repeat;
+	        background-position: 0 500px;
+        }
+
+        .RadMenu_Black .rmLink
+        {
+	        font: normal 12px/23px "Segoe UI", Arial, sans-serif;
+	        color: #fff;
+	        text-decoration: none;
+        }
+
+        .RadMenu_Black .rmLink
+        {
+	        background-image: url('mvwres://Telerik.Web.UI, Version=2009.1.527.35, Culture=neutral, PublicKeyToken=121fae78165ba3d4/Telerik.Web.UI.Skins.Black.Menu.rmSprite.png');
+	        background-color: transparent;
+        }
+
+        .RadMenu .rmLink
+        {
+	        padding: 0 0 0 12px;
+	        outline: 0;
+	        float: left;
+        }
+
+        .RadMenu .rmLink
+        {
+	        width:auto;
+        }
+
+        .RadMenu_Black .rmText
+        {
+	        background-repeat: no-repeat;
+	        background-position: 0 500px;
+        }
+
+        .RadMenu_Black .rmText
+        {
+	        background-image: url('mvwres://Telerik.Web.UI, Version=2009.1.527.35, Culture=neutral, PublicKeyToken=121fae78165ba3d4/Telerik.Web.UI.Skins.Black.Menu.rmSprite.png');
+	        background-color: transparent;
+        }
+
+        .RadMenu .rmText
+        {
+	        padding-bottom: 1px;
+	        float: left;
+        }
+
+        .RadMenu .rmText
+        {
+	        display:block;
+        }
+
+    </style>
+</head>
+<body>
+    <form id="form2" runat="server">
+    <div>
+        <table cellspacing="0" class="style1" style="background-color: White;">
+            <tr>
+                <td class="style2" colspan="2" >
+                    <table cellspacing="0" style="width: 100%; height: 100%; background-image: url('/Imagenes/Fondo_Cuenza_04.png'); background-repeat: no-repeat" >
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="background-color: White;" class="style3">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color: #2D2D2D; width: 100%; border-right-style: solid; border-left-style: solid; border-right-color: #AAAAAA; border-left-color: #AAAAAA; border-right-width: 1px; border-left-width: 1px;">
+                    <table cellspacing="0"  class="style7">
+                        <tr>
+                            <td style="width:82%; text-align:left">
+                                <telerik:RadToolBar ID="RadToolBarCerrar" Runat="server" Skin="Black" Width="100%">
+                                    <Items>
+                                        <telerik:RadToolBarButton runat="server" Text="Cerrar sesión" ToolTip="Cerrar sesión actual">
+                                        </telerik:RadToolBarButton>
+                                    </Items>
+                                </telerik:RadToolBar>
+                            </td>
+                            <td style="text-align:left; width:20%;">
+                                <telerik:RadToolBar ID="RadToolBarCiclosNegocio" Runat="server" Skin="Black" Width="100%" Height="28px">
+                                    <Items>
+                                        <telerik:RadToolBarButton runat="server" Text="Cuenza" NavigateUrl="~/PronosticoPrograma.aspx">
+                                        </telerik:RadToolBarButton>
+                                        <telerik:RadToolBarButton runat="server" Text="Cuenpa" NavigateUrl="~/PronosticoPrograma.aspx">
+                                        </telerik:RadToolBarButton>
+                                        <telerik:RadToolBarButton runat="server" Text="AdminSist" NavigateUrl="~/PronosticoPrograma.aspx">
+                                        </telerik:RadToolBarButton>
+                                    </Items>
+                                </telerik:RadToolBar>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="background-color: White;" class="style3">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style8" style="border-left-style: solid; border-left-color: #AAAAAA; border-left-width: 1px;">
+                    &nbsp;</td>
+                <td style="background-color: White; border-right-style: solid; border-right-color: #AAAAAA; border-right-width: 1px;" class="style9">
+                    &nbsp;</td>
+                <td style="background-color: White;" class="style10">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style4" style="border-left-style: solid; border-left-color: #AAAAAA; border-left-width: 1px;">
+                    <table cellspacing="0"  class="style7" >
+                        <tr>
+                            <td style="text-align: center; height:30px;">
+                                <br />
+                                <asp:Image ID="Image2" runat="server" Height="74px" Width="89px" 
+                                    ImageUrl="~/Imagenes/UserGroup.png" />
+                                <br />
+                                <asp:Label ID="lblNombreUsuario" runat="server" Font-Names="Arial" Font-Size="Small" 
+                                    Text="Usuario" Font-Bold="True" ForeColor="#BE500F" Width="100%"></asp:Label>
+                                <br />
+                                <asp:Label ID="LabelRol" runat="server" Font-Names="Arial" Font-Size="Medium" 
+                                    Text="Rol" Font-Bold="True" ForeColor="#BE500F" Width="100%"></asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center; height:15px;">
+                                &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left; height:30px;">
+                                <telerik:RadPanelBar ID="RadPanelBarProcesos" Runat="server" Skin="Black" 
+                                    Width="100%">
+                                    <Items>
+                                        <telerik:RadPanelItem runat="server" Text="Procesos">
+                                        </telerik:RadPanelItem>
+                                    </Items>
+                                </telerik:RadPanelBar>
+                                <telerik:RadPanelBar ID="RadPanelBarProcesosMenus" Runat="server" Skin="Simple" 
+                                    Width="166px">
+                                    <Items>
+                                        <telerik:RadPanelItem runat="server" Text="Pronóstico y Programa" NavigateUrl="~/PronosticoPrograma.aspx" ToolTip="Entrar al menú Pronóstico y Programa">
+                                        </telerik:RadPanelItem>
+                                        <telerik:RadPanelItem runat="server" Text="Facturación" NavigateUrl="~/Facturacion.aspx" ToolTip="Entrar al menú Facturación">
+                                        </telerik:RadPanelItem>
+                                        <telerik:RadPanelItem runat="server" Text="Control de Cobranza" NavigateUrl="~/ControlCobranza.aspx" ToolTip="Entrar al menú Control de Cobranza">
+                                        </telerik:RadPanelItem>
+                                        <telerik:RadPanelItem runat="server" Text="Programas por Cliente" NavigateUrl="~/PronosticoProgramaV2.aspx" ToolTip="Entrar al menú Programas por Cliente">
+                                        </telerik:RadPanelItem>
+                                    </Items>
+                                </telerik:RadPanelBar>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center; height:15px;">
+                                &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left; height:30px;">
+                                <telerik:RadPanelBar ID="RadPanelBarConfiguracion" Runat="server" 
+                                    Width="100%" Skin="Black">
+                                    <Items>
+                                        <telerik:RadPanelItem runat="server" Text="Configuración">
+                                        </telerik:RadPanelItem>
+                                    </Items>
+                                </telerik:RadPanelBar>
+                                <telerik:RadPanelBar ID="RadPanelBarConfiguracionMenus" Runat="server" Skin="Simple" 
+                                    Width="166px">
+                                    <Items>
+                                        <telerik:RadPanelItem runat="server" Text="Usuarios" NavigateUrl="~/Usuarios.aspx" ToolTip="Entrar al menú Usuarios">
+                                        </telerik:RadPanelItem>
+                                        <telerik:RadPanelItem runat="server" Text="Bitácora" NavigateUrl="~/Bitacora.aspx" ToolTip="Entrar al menú Bitácora">
+                                        </telerik:RadPanelItem>
+                                        <telerik:RadPanelItem runat="server" Text="Alertas" NavigateUrl="~/Alertas.aspx" ToolTip="Entrar al menú Alertas">
+                                        </telerik:RadPanelItem>
+                                        <telerik:RadPanelItem runat="server" Text="Líneas de Servicio" NavigateUrl="~/LineasServicio.aspx" ToolTip="Entrar al menú Líneas de Servicio">
+                                        </telerik:RadPanelItem>
+                                        <telerik:RadPanelItem runat="server" Text="Servicios" NavigateUrl="~/Servicios.aspx" ToolTip="Entrar al menú Servicios">
+                                        </telerik:RadPanelItem>
+                                        <telerik:RadPanelItem runat="server" Text="Clientes" NavigateUrl="~/Clientes.aspx" ToolTip="Entrar al menú Clientes">
+                                        </telerik:RadPanelItem>
+                                        <telerik:RadPanelItem runat="server" Text="¿Quién Factura?" NavigateUrl="~/Empresas.aspx" ToolTip="Entrar al menú ¿Quién Factura?">
+                                        </telerik:RadPanelItem>
+                                    </Items>
+                                </telerik:RadPanelBar>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center; height:15px;">
+                                &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left; height:30px;">
+                                <telerik:RadPanelBar ID="RadPanelBarClasificacion" Runat="server" Skin="Black" 
+                                    Width="100%" Visible="False">
+                                    <Items>
+                                        <telerik:RadPanelItem runat="server" Text="Clasificación">
+                                        </telerik:RadPanelItem>
+                                    </Items>
+                                </telerik:RadPanelBar>
+                                <telerik:RadPanelBar ID="RadPanelBarClasificacionMenus" Runat="server" Skin="Simple" 
+                                    Width="166px" Visible="False">
+                                    <Items>
+                                        <telerik:RadPanelItem runat="server" Text="Diagrama del Proceso" ToolTip="Entrar al menú Diagrama del Proceso">
+                                        </telerik:RadPanelItem>
+                                        <telerik:RadPanelItem runat="server" Text="Módulos y Roles" ToolTip="Entrar al menú Módulos y Roles">
+                                        </telerik:RadPanelItem>
+                                        <telerik:RadPanelItem runat="server" Text="Tipos de Moneda" ToolTip="Entrar al menú Tipos de Moneda">
+                                        </telerik:RadPanelItem>
+                                        <telerik:RadPanelItem runat="server" Text="Tipos de Factura" ToolTip="Entrar al menú Tipos de Factura">
+                                        </telerik:RadPanelItem>
+                                        <telerik:RadPanelItem runat="server" Text="Tipos de Pagos" ToolTip="Entrar al menú Tipos de Pagos">
+                                        </telerik:RadPanelItem>
+                                        <telerik:RadPanelItem runat="server" Text="Estatus" ToolTip="Entrar al menú Estatus">
+                                        </telerik:RadPanelItem>
+                                    </Items>
+                                </telerik:RadPanelBar>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center; height:15px;">
+                                &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">
+                                <telerik:RadScriptManager ID="RadScriptManager1" Runat="server">
+                                </telerik:RadScriptManager>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="style9" style="border-right-style: solid; border-right-color: #AAAAAA; border-right-width: 1px;">
+                    <asp:ContentPlaceHolder ID="Contenido1" runat="server">
+                        <p>
+                            &nbsp;</p>
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td class="style10" style="text-align: left; vertical-align: top; background-color: White;">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style1" colspan="2" style="text-align: right; background-color: #EF6815; border-right-style: solid; border-left-style: solid; border-right-color: #AAAAAA; border-left-color: #AAAAAA; border-right-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #AAAAAA;">
+                    <asp:Label ID="Label2" runat="server" Font-Size="Small" ForeColor="White" 
+                        Text="Todos los derechos reservados C.P. & A."></asp:Label>
+                </td>
+                <td style="background-color: White;" class="style3">
+                    &nbsp;</td>
+            </tr>
+        </table>
+    </div>
+    </form>
+    <script lang="JavaScript">
+        var bPreguntar = true;
+        window.onbeforeunload = preguntarAntesDeSalir;
+        function preguntarAntesDeSalir() {
+            if (bPreguntar){
+                var radToolBar = $find("<%=RadToolBarCerrar.ClientID%>");
+                var button = radToolBar.findItemByText("Cerrar sesión");
+                button.click();
+            }
+        }
+    </script>
+    </body>
+</html>

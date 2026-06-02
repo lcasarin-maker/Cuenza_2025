@@ -1,0 +1,58 @@
+{
+  "version": "0.5",
+  "session_id": "claude-Cuenza-2025-v0.5-live",
+  "agent_name": "Claude (CoderCerberus mainline)",
+  "tier": "TRUSTED",
+  "status": "ACTIVE (MIGRATION FROM LEGACY)",
+  "next_step": "Auditar S3 (SQL injection), implementar S9 logging completo, migrar a .NET 6+ en Sprint 2.",
+  "rules_touched": [
+    "S17",
+    "B2",
+    "B10",
+    "S3",
+    "S4",
+    "S9"
+  ],
+  "files_modified": [
+    ".agent_state.json",
+    "SPEC.md",
+    "PLAN.md",
+    ".claude/CLAUDE.md",
+    ".gitignore",
+    "README.md"
+  ],
+  "token_usage_last_session": 0,
+  "session_type": "LEGACY_MIGRATION",
+  "infrastructure_status": "CoderCerberus v0.5 ACTIVE — ASP.NET VB legacy migrating to maintainable codebase",
+  "resilience_score": "100%",
+  "next_agent_should_know": "Cuenza 2025 VB.NET ASP.NET 4.5 — now independent project. Status: S3 audit required (SQL injection in Facturacion module). S9 logging needs completion. Ready for GitHub public repo.",
+  "protocol_checksums": {},
+  "last_sync": "2026-06-02T00:00:00.000000",
+  "session_token_budget": {
+    "session_start_tokens": 0,
+    "base_context_tokens": 50000,
+    "tokens_used_so_far": 0,
+    "tokens_remaining_headroom": 20000,
+    "compressions_this_session": [],
+    "reversals_and_costs": []
+  },
+  "current_model": "haiku",
+  "execution_phase": "startup",
+  "known_agents": [
+    {
+      "name": "claude-haiku",
+      "type": "claude",
+      "model": "claude-haiku-4-5-20251001",
+      "last_seen": "2026-06-02"
+    }
+  ],
+  "agent_permissions": {
+    "claude-haiku": {
+      "type": "claude",
+      "allowed_commands": ["check", "sync", "install", "promote", "doctor", "evidence", "audit"],
+      "can_commit": true,
+      "can_push": true,
+      "model_selection": true
+    }
+  }
+}
