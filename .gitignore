@@ -47,3 +47,7 @@ Thumbs.db
 
 # SQL backups
 *.backup
+
+# Symlinks to Cerberus
+.protocol-core/
+.protocol-eval/
